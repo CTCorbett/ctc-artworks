@@ -5,32 +5,18 @@ form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
 /* -------------------- */
 
-* { box-sizing: border-box; font-family: monospace; }
+* { box-sizing: border-box; font-family: sans-serif; }
 *::selection { background: #F2CA00; color: #0F171F; }
 *::-moz-selection { background: #F2CA00; color: #0F171F; }
 
 body {
-    /*background: linear-gradient(150deg, rgba(184,242,233,1) 0%, rgba(184,242,233,1) 15%, rgba(255,250,194,1) 50%, rgba(255,204,213,1) 75%, rgba(224,194,255,1) 100%);*/
-    color: #0F171F;
-    font-family: monospace;
+    background: #F7F6EB;
+    color: #1D2625;
+    font-family: sans-serif;
     font-size: 20px;
     line-height: 1.5;
     padding: 48px 48px 48px 72px;
     max-width: 1128px;
-}
-
-body::before {
-    content: '';
-    height: 100%;
-    width: 24px;
-    background: rgb(32,158,158,1);
-    background: linear-gradient(150deg, rgba(32,158,158,1) 0%, rgba(32,158,158,1) 15%, rgba(242,202,0,1) 50%, rgba(247,111,157,1) 75%, rgba(141,84,255,1) 100%);
-    background: linear-gradient(150deg, rgba(184,242,233,1) 0%, rgba(184,242,233,1) 15%, rgba(255,250,194,1) 50%, rgba(255,204,213,1) 75%, rgba(224,194,255,1) 100%);
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9001;
 }
 
 h1, h2, h3, h4, h5, h6 {
