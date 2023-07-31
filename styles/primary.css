@@ -15,27 +15,38 @@ body {
     font-family: Catamaran, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    padding: 60px;
+    padding: 24px;
     max-width: 1128px;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+}
+
+h1 {
     color: #BF0040;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 900;
-    margin-top: 24px;
 }
 
-p {
-    margin-top: 24px;
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
 }
 
-section { margin-top: 24px; }
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
 
-section.links { margin-top: 24px; }
+.logo-rune-header {width: 51px;}
 
-section.links a { display: inline-block; }
-section.links #portfolio { margin-top: 12px; }
+p {margin-top: 24px;}
+
+a {color:#208060;}
 
 footer { margin-top: 24px; }
-small { font-size: 12px; }
+small { color: #9E4F34; font-size: 12px;}
+small img {margin-top: -3px; padding-right: 6px; vertical-align: middle;}
