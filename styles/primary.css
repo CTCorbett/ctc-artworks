@@ -20,6 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
     margin-top: 24px;
 }
 
@@ -29,12 +30,19 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
+header h2 {
+    color: #1D2625;
     font-family: 'EB Garamond', serif;
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
     margin: 0;
+}
+
+h2 {
+    color: #208060;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 h6 {
@@ -47,6 +55,8 @@ h6 {
 p {margin-top: 24px;}
 
 a {color:#208060;}
+
+ul.features {list-style: square; margin: 24px;}
 
 footer { margin-top: 24px; }
 small { color: #9E4F34; font-size: 12px;}
